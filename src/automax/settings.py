@@ -44,7 +44,7 @@ DEBUG = bool(env('DEBUG'))
 #DEBUG = os.environ.get('DEBUG', 'False').lower() == 'true'
 
 
-ALLOWED_HOSTS = ['.vercel.app']
+ALLOWED_HOSTS = ['127.0.0.1']
 
 
 # Application definition
